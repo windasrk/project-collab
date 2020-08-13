@@ -15,6 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/indexcobapull', function () {
-    return view('welcome');
+// Route::get('/indexcobapull', function () {
+//     return view('welcome');
+// });
+
+Route::get('/master', function () {
+    return view('adminlte.master');
+});
+Route::get('/items', function () {
+    return view('items.index');
 });
